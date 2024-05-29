@@ -1,0 +1,21 @@
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\bin\Debug\Clicker 4 version.exe.config
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\bin\Debug\Clicker 4 version.exe
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\bin\Debug\Clicker 4 version.pdb
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Custom.g.cs
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Game.g.cs
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\App.g.cs
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version_MarkupCompile.cache
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version_MarkupCompile.lref
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Custom.baml
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Game.baml
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Style1.baml
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Style2.baml
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.g.resources
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker_4_version.Properties.Resources.resources
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.exe
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.pdb
+C:\Users\user\source\repos\Clicker 4 version\Clicker 4 version\obj\Debug\Clicker 4 version.csprojAssemblyReference.cache

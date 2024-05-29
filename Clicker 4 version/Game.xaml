@@ -1,0 +1,46 @@
+﻿<Page x:Class="Clicker_4_version.Game"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Clicker_4_version"
+      mc:Ignorable="d" 
+      Width="782.246" Height="348.694"
+      Title="Game">
+
+    <Grid Background="White" Width="792" Height="363">
+        <GroupBox Header="Score info" HorizontalAlignment="Left" Height="71" Margin="578,-1,0,0" VerticalAlignment="Top" Width="204"/>
+
+        <GroupBox Header="time info" HorizontalAlignment="Left" Height="85" Margin="540,265,0,0" VerticalAlignment="Top" Width="242"/>
+
+        <Button x:Name = "Punch" Content="Punch" HorizontalAlignment="Left" Margin="182,277,0,0" VerticalAlignment="Top" Width="353" Click="Punch_Click" Height="68"/>
+        <ProgressBar x:Name ="ProgressLive" Panel.ZIndex="0" HorizontalAlignment="Left" Height="33" Margin="10,25,0,0" VerticalAlignment="Top" Width="507" Minimum="0" Value="100" Background="White"  ValueChanged="ProgressLive_ValueChanged"/>
+        <StackPanel HorizontalAlignment="Left" Height="30" Margin="547,299,0,0" VerticalAlignment="Top" Width="232">
+            <Label Content="Осталось времени:" Height="28" HorizontalAlignment="Right" Width="120" Margin="0,0,112,0" RenderTransformOrigin="1.225,0.661"/>
+        </StackPanel>
+        <Label x:Name="Second" FontFamily ="SegoeUI" Content="{Binding increment}" HorizontalAlignment="Left" Margin="730,299,0,0" VerticalAlignment="Top" Height="30" Width="31" FontSize="20" RenderTransformOrigin="-0.121,0.908"/>
+        <Label x:Name="Minute" FontFamily="SegoeUI" Content="{Binding minute}" Margin="0,299,80,34" RenderTransformOrigin="11.789,3.369" HorizontalAlignment="Right" Width="34" FontSize="20" />
+        <Label Content=":" HorizontalAlignment="Left" Margin="711,296,0,0" VerticalAlignment="Top" Width="14" FontSize="18" RenderTransformOrigin="0.5,0.5" Height="34">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.001"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.5"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBlock x:Name="LiveChanged" Text="{Binding Value, ElementName=ProgressLive}" Grid.Column="1" Panel.ZIndex="1" HorizontalAlignment="Left" Margin="247,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="2.449,0.062" Height="16" Width="26"/>
+        <TextBlock  x:Name ="Score" HorizontalAlignment="Left" Margin="583,13,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="196" Height="57"/>
+        <Label x:Name="Krit" Content="Крит" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Panel.ZIndex="1" Height="50" Width="84" Visibility="Hidden"/>
+        <Label Content="max damage:" HorizontalAlignment="Left" Margin="1,278,0,0" VerticalAlignment="Top"/>
+        <Label Content="min damage:" HorizontalAlignment="Left" Margin="3,303,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.3,0.112"/>
+        <TextBlock x:Name="maxDamage" HorizontalAlignment="Left" Margin="84,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="49"/>
+        <TextBlock x:Name="minDamage" HorizontalAlignment="Left" Margin="81,308,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="49"/>
+        <Label Content="damage: " HorizontalAlignment="Left" Margin="3,322,0,0" VerticalAlignment="Top" Height="23"/>
+        <TextBlock x:Name="damageText" HorizontalAlignment="Left" Margin="87,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="53"/>
+        <GroupBox Header="damage info" HorizontalAlignment="Left" Height="89" Margin="0,257,0,0" VerticalAlignment="Top" Width="177"/>
+        <Label Content="lvl" Grid.Column="1" HorizontalAlignment="Left" Margin="10,-1,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="levelText" Grid.Column="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="37,3,0,0" Width="70"/>
+    </Grid>
+</Page>
